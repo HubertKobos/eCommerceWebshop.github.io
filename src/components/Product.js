@@ -9,10 +9,10 @@ function Product({product}) {
     <Card style={{ width: '22rem', height: '30rem'}} className='my-3  rounded'>
 
         <Card.Body>
-            <Link to={`/product/${product.id}`}>
+            <Link to={`/eCommerceWebshop.github.io/product/${product.id}`}>
                 <Card.Img className='mb-3'src={require(`../resources/05.jpg`)}/>
             </Link>
-            <Link to={`/product/${product.id}`} style={{textDecoration: 'none'}}>
+            <Link to={`/eCommerceWebshop.github.io/product/${product.id}`} style={{textDecoration: 'none'}}>
                 <Card.Title as="div"><strong>{product.name}</strong></Card.Title>
             </Link>
             <Card.Text>
@@ -26,7 +26,7 @@ function Product({product}) {
                   <Rating value={product.rating} text={`${product.numReviews} reviews`} color={"#f8e825"}/>
                 </div>
             </Card.Text>
-            <Button variant="primary" href={`/product/${product.id}`}>Zobacz</Button>
+            <Button variant="primary" href={`/eCommerceWebshop.github.io/product/${product.id}`}>Zobacz</Button>
         </Card.Body>
     </Card> 
   )

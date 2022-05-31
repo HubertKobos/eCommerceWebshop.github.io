@@ -4,21 +4,32 @@ import { Row, Col, Image, ListGroup, ListGroupItem, Button } from 'react-bootstr
 import Rating from '../components/Rating'
 import { Card } from 'react-bootstrap'
 import axios from 'axios'
+import products from '../products'
 export default function ProductScreen() {
+    // Because of deployment reasons I changed API for data from list
     const { id } = useParams() // dynamic params from URL
     const [product, setProduct] = useState([])
-
+    
+    // useEffect(() =>{
+    //     async function fetchProducts(){
+    //         const {data} = await axios.get(`/product/${id}`)
+    //         setProduct(data)
+    //     }
+    //     fetchProducts()
+    // }, [])
+    
     useEffect(() =>{
         async function fetchProducts(){
-            const {data} = await axios.get(`/product/${id}`)
-            setProduct(data)
+            // const {data} = await axios.get(`/product/${id}`)
+            setProduct(products[id-1])
         }
         fetchProducts()
     }, [])
-
+    // console.log(products[id])
+    // setProduct(products[id])
     return (
         <div>
-            <Link to="/" className="btn btn-light my-3">Go Back</Link>
+            <Link to="/eCommerceWebshop.github.io/" className="btn btn-light my-3">Go Back</Link>
             <Row>
                 <Col md={6}>
                     <Image src={require(`../resources/05.jpg`)} alt={product.name} fluid />
