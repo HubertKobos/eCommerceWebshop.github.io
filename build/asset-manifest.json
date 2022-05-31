@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/eCommerceWebshop.github.io/static/css/main.7373394d.css",
-    "main.js": "/eCommerceWebshop.github.io/static/js/main.61897812.js",
+    "main.css": "/eCommerceWebshop.github.io/static/css/main.fc8b3a5b.css",
+    "main.js": "/eCommerceWebshop.github.io/static/js/main.68bfd0b0.js",
     "static/js/787.cda612ba.chunk.js": "/eCommerceWebshop.github.io/static/js/787.cda612ba.chunk.js",
     "static/media/05.jpg": "/eCommerceWebshop.github.io/static/media/05.64b9802dcc491cffc738.jpg",
     "index.html": "/eCommerceWebshop.github.io/index.html",
-    "main.7373394d.css.map": "/eCommerceWebshop.github.io/static/css/main.7373394d.css.map",
-    "main.61897812.js.map": "/eCommerceWebshop.github.io/static/js/main.61897812.js.map",
+    "main.fc8b3a5b.css.map": "/eCommerceWebshop.github.io/static/css/main.fc8b3a5b.css.map",
+    "main.68bfd0b0.js.map": "/eCommerceWebshop.github.io/static/js/main.68bfd0b0.js.map",
     "787.cda612ba.chunk.js.map": "/eCommerceWebshop.github.io/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7373394d.css",
-    "static/js/main.61897812.js"
+    "static/css/main.fc8b3a5b.css",
+    "static/js/main.68bfd0b0.js"
   ]
 }
