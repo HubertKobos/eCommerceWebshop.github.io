@@ -29,6 +29,7 @@ function App() {
                 {!registerValue && !value && <Route path="/eCommerceWebshop.github.io/product/:id" element={<ProductScreen/>} exact/>}
                 <Route path="/eCommerceWebshop.github.io/contact" element ={<Contact />} />
                 <Route path="/eCommerceWebshop.github.io/cart" element ={<Cart />} />
+                <Route path="http://localhost:3000/eCommerceWebshop.github.io?" element={<HomeScreen />} />
               </Routes>
             </Container>
         </main>

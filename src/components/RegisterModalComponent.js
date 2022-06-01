@@ -39,7 +39,7 @@ export default function LoginModal() {
                     <Form.Control type="text" placeholder="Wpisz nazwisko" className='text-center' />
                 </Form.Group>
                 <div style={{alignItems: 'center', justifyContent: 'center'}} >
-                    <Button variant="primary" type="submit" style={{margin:5, width:90, height:40 }} >
+                    <Button variant="primary" type="submit" style={{margin:5, width:90, height:40 }}>
                         Rejestruj
                     </Button>
                     <Button variant="danger" type="submit" style={{margin:5, width:76, height:40, display: 'block', marginLeft: '41.2%' }} onClick={() => {dispatch(setTrueValue()); dispatch(setRegisterFalseValue())}}>

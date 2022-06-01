@@ -29,7 +29,7 @@ export default function ProductScreen() {
     // setProduct(products[id])
     return (
         <div>
-            <Link to="/eCommerceWebshop.github.io/" className="btn btn-light my-3">Go Back</Link>
+            <Link to="/eCommerceWebshop.github.io/" className="btn btn-light my-3">Wróć</Link>
             <Row>
                 <Col md={6}>
                     <Image src={require(`../resources/05.jpg`)} alt={product.name} fluid />

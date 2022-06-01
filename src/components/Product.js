@@ -26,7 +26,9 @@ function Product({product}) {
                   <Rating value={product.rating} text={`${product.numReviews} reviews`} color={"#f8e825"}/>
                 </div>
             </Card.Text>
-            <Button variant="primary" href={`/eCommerceWebshop.github.io/product/${product.id}`}>Zobacz</Button>
+            <Link to={`/eCommerceWebshop.github.io/product/${product.id}`}>
+                <Button variant="primary">Zobacz</Button>
+            </Link>
         </Card.Body>
     </Card> 
   )
