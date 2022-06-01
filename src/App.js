@@ -30,6 +30,8 @@ function App() {
                 <Route path="/eCommerceWebshop.github.io/contact" element ={<Contact />} />
                 <Route path="/eCommerceWebshop.github.io/cart" element ={<Cart />} />
                 <Route path="http://localhost:3000/eCommerceWebshop.github.io?" element={<HomeScreen />} />
+                <Route path="https://hubertkobos.github.io/eCommerceWebshop.github.io/contact?" element={<HomeScreen />} />
+                <Route path="https://hubertkobos.github.io/eCommerceWebshop.github.io/cart?" element={<HomeScreen />} />
               </Routes>
             </Container>
         </main>
