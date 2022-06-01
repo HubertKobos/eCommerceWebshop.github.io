@@ -1,40 +1,16 @@
 {
   "files": {
     "main.css": "/eCommerceWebshop.github.io/static/css/main.f1cd2da9.css",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "main.js": "/eCommerceWebshop.github.io/static/js/main.aa9c5d90.js",
-=======
-    "main.js": "/eCommerceWebshop.github.io/static/js/main.15af7b72.js",
->>>>>>> 05860f13f829b25a3f6e68cbb236535816af2f5e
-=======
-    "main.js": "/eCommerceWebshop.github.io/static/js/main.15af7b72.js",
->>>>>>> 05860f13f829b25a3f6e68cbb236535816af2f5e
+    "main.js": "/eCommerceWebshop.github.io/static/js/main.a2cbe884.js",
     "static/js/787.cda612ba.chunk.js": "/eCommerceWebshop.github.io/static/js/787.cda612ba.chunk.js",
     "static/media/05.jpg": "/eCommerceWebshop.github.io/static/media/05.64b9802dcc491cffc738.jpg",
     "index.html": "/eCommerceWebshop.github.io/index.html",
     "main.f1cd2da9.css.map": "/eCommerceWebshop.github.io/static/css/main.f1cd2da9.css.map",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "main.aa9c5d90.js.map": "/eCommerceWebshop.github.io/static/js/main.aa9c5d90.js.map",
-=======
-    "main.15af7b72.js.map": "/eCommerceWebshop.github.io/static/js/main.15af7b72.js.map",
->>>>>>> 05860f13f829b25a3f6e68cbb236535816af2f5e
-=======
-    "main.15af7b72.js.map": "/eCommerceWebshop.github.io/static/js/main.15af7b72.js.map",
->>>>>>> 05860f13f829b25a3f6e68cbb236535816af2f5e
+    "main.a2cbe884.js.map": "/eCommerceWebshop.github.io/static/js/main.a2cbe884.js.map",
     "787.cda612ba.chunk.js.map": "/eCommerceWebshop.github.io/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1cd2da9.css",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "static/js/main.aa9c5d90.js"
-=======
-    "static/js/main.15af7b72.js"
->>>>>>> 05860f13f829b25a3f6e68cbb236535816af2f5e
-=======
-    "static/js/main.15af7b72.js"
->>>>>>> 05860f13f829b25a3f6e68cbb236535816af2f5e
+    "static/js/main.a2cbe884.js"
   ]
 }
