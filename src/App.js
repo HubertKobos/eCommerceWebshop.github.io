@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ProductScreen from "./Screens/ProductScreen";
 import LoginModal from "./components/LoginModalComponent";
 import RegisterModalComponent from "./components/RegisterModalComponent"
+import Contact from "./components/Contact";
+import Cart from "./components/Cart";
 
 function App() {
   const value = useSelector((state) => state.modal.value)
@@ -25,6 +27,8 @@ function App() {
               <Routes>
                 {!value && !registerValue && <Route path="/eCommerceWebshop.github.io" element={<HomeScreen/>} exact/>}
                 {!registerValue && !value && <Route path="/eCommerceWebshop.github.io/product/:id" element={<ProductScreen/>} exact/>}
+                <Route path="/eCommerceWebshop.github.io/contact" element ={<Contact />} />
+                <Route path="/eCommerceWebshop.github.io/cart" element ={<Cart />} />
               </Routes>
             </Container>
         </main>

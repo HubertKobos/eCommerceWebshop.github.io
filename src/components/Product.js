@@ -10,7 +10,7 @@ function Product({product}) {
 
         <Card.Body>
             <Link to={`/eCommerceWebshop.github.io/product/${product.id}`}>
-                <Card.Img className='mb-3'src={require(`../resources/05.jpg`)}/>
+                <Card.Img className='mb-3' src={require(`../resources/05.jpg`)}/>
             </Link>
             <Link to={`/eCommerceWebshop.github.io/product/${product.id}`} style={{textDecoration: 'none'}}>
                 <Card.Title as="div"><strong>{product.name}</strong></Card.Title>

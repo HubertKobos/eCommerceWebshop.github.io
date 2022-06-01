@@ -11,45 +11,45 @@ export default function LoginModal() {
 
   return (
     <div className='modalBackground'>
-        <div className='RegisterModalContainer' style={{height: '35vh'}}>
+        <div className='RegisterModalContainer' style={{height: '1000'}}>
             <div className='title text-center'>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" className='text-center'/>
+                    <Form.Label>Email</Form.Label>
+                    <Form.Control type="email" placeholder="Wpisz adres email" className='text-center'/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Enter Password" className='text-center' />
+                    <Form.Label>Hasło</Form.Label>
+                    <Form.Control type="password" placeholder="Wpisz hasło" className='text-center' />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Confirm Password</Form.Label>
-                    <Form.Control type="password" placeholder="Enter Password" className='text-center' />
+                    <Form.Label>Potwierdź hasło</Form.Label>
+                    <Form.Control type="password" placeholder="Wpisz hasło" className='text-center' />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Password" className='text-center' />
+                    <Form.Label>Imię*</Form.Label>
+                    <Form.Control type="text" placeholder="Wpisz imię" className='text-center' />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Password" className='text-center' />
+                    <Form.Label>Nazwisko*</Form.Label>
+                    <Form.Control type="text" placeholder="Wpisz nazwisko" className='text-center' />
                 </Form.Group>
-                <div style={{alignItems: 'center', justifyContent: 'center'}}>
-                    <Button variant="primary" type="submit" style={{margin:5, width:76, height:40 }}>
-                        Submit
+                <div style={{alignItems: 'center', justifyContent: 'center'}} >
+                    <Button variant="primary" type="submit" style={{margin:5, width:90, height:40 }} >
+                        Rejestruj
                     </Button>
                     <Button variant="danger" type="submit" style={{margin:5, width:76, height:40, display: 'block', marginLeft: '41.2%' }} onClick={() => {dispatch(setTrueValue()); dispatch(setRegisterFalseValue())}}>
-                        Back
+                        Wróć
                     </Button>
                 </div>
             </Form>
             </div>
-            <div className='footer text-center' style={{position: 'relative', bottom: -40}}>
-                <Button variant="link" onClick={() => {dispatch(setFalseValue()); dispatch(setRegisterFalseValue())}}>Continue without registering</Button>
+            <div className='footer text-center' style={{position: 'relative', bottom: -10}}>
+                <Button variant="link" onClick={() => {dispatch(setFalseValue()); dispatch(setRegisterFalseValue())}}>Kontynuuj bez rejestracji</Button>
             </div>
         </div>
     </div>

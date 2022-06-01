@@ -76,10 +76,11 @@ export default function ProductScreen() {
                                         </Col>
                                     </Row>
                                 </ListGroup.Item>
-
-                                <ListGroup.Item className='text-center'>
-                                    <Button className='btn-block ' disabled={product.countInStock == 0} type="button">Dodaj do koszyka</Button>
-                                </ListGroup.Item>
+                                <Link to="/eCommerceWebshop.github.io/cart/">
+                                    <ListGroup.Item className='text-center'>
+                                        <Button className='btn-block ' disabled={product.countInStock == 0} type="button">Dodaj do koszyka</Button>
+                                    </ListGroup.Item>
+                                </Link>
                             </ListGroup>
                         </ListGroup>
                     </Card>

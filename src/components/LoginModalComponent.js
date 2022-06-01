@@ -14,25 +14,25 @@ export default function LoginModal() {
             <div className='title text-center'>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" className='text-center'/>
+                    <Form.Label>Email</Form.Label>
+                    <Form.Control type="email" placeholder="Wpisz adres email" className='text-center'/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Enter Password" className='text-center' />
+                    <Form.Label>Hasło</Form.Label>
+                    <Form.Control type="password" placeholder="Wpisz hasło" className='text-center' />
                 </Form.Group>
                 <Button variant="primary" type="submit">
-                    Submit
+                    Zaloguj
                 </Button>
             </Form>
             </div>
             <div className='body'>
-                <p className='mb-0'>Don't have account yet ?</p>
-                    <Button variant="link" onClick={() => {dispatch(setFalseValue()); dispatch(setRegisterTrueValue())}}>Register</Button>
+                <p className='mb-0'>Nie masz konta ?</p>
+                    <Button variant="link" onClick={() => {dispatch(setFalseValue()); dispatch(setRegisterTrueValue())}}>Zarejestruj się</Button>
             </div>
             <div className='footer text-center'>
-                <Button variant='danger' onClick={() => {dispatch(setFalseValue())}}>Cancel</Button>
+                <Button variant='danger' onClick={() => {dispatch(setFalseValue())}}>Zamknij</Button>
             </div>
         </div>
     </div>
